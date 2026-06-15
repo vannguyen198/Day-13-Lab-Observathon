@@ -10,3 +10,14 @@
     }
   ]
 }
+
+{
+  "fault_class": "provider_quota_exhaustion",
+  "evidence": {
+    "exception": "RateLimitError",
+    "http_status": 429,
+    "error_code": "insufficient_quota"
+  },
+  "root_cause": "OpenAI API account had no available quota.",
+  "suggested_fix": "Use a funded API project or course-provided credentials and implement graceful handling for provider quota failures."
+}
