@@ -6,12 +6,9 @@ cost_usd (computed from token usage via telemetry.cost) -- cost becomes a
 first-class metric alongside latency and tokens.
 """
 from __future__ import annotations
-
 from typing import Any, Optional
-
 from telemetry.cost import cost_from_usage
 from telemetry.logger import logger
-
 
 class PerformanceTracker:
     def track_request(
@@ -36,7 +33,6 @@ class PerformanceTracker:
         if extra:
             data.update(extra)
         logger.log_event(event, data)
-
 
 # Global tracker instance -- imported by every provider.
 tracker = PerformanceTracker()

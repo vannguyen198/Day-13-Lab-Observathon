@@ -19,14 +19,12 @@ ILLEGAL = [r"observathon_sim\._", r"observathon_score", r"open\(\s*['\"].*instru
            r"\bsocket\b", r"urllib", r"requests\."]
 PROMPT_MAX = 3000
 
-
 def _scan_prompt(text, label):
     assert len(text) <= PROMPT_MAX, f"{label} too long ({len(text)} > {PROMPT_MAX})"
     bigs = {re.sub(r'[.,\s]', '', m) for m in re.findall(r"\d[\d.,]{5,}\d", text)}
     bigs = {b for b in bigs if b.isdigit() and int(b) >= 1_000_000}
     assert len(bigs) < 4, f"{label} looks like a hardcoded price/answer table"
     assert not re.search(r"\b(?:pub|prv|prac)-\d{2,}\b", text), f"{label} references question IDs"
-
 
 def main(sol="solution"):
     ok = True
@@ -67,7 +65,6 @@ def main(sol="solution"):
         print(f"[FAIL] findings.json: {e}"); ok = False
     print("\nREADY to run the scorer + push." if ok else "\nFIX the above before submitting.")
     sys.exit(0 if ok else 1)
-
 
 if __name__ == "__main__":
     main(sys.argv[1] if len(sys.argv) > 1 else "solution")

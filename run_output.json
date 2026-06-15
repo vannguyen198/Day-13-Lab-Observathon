@@ -1,0 +1,228 @@
+{
+  "phase": "practice",
+  "n": 20,
+  "users": null,
+  "turns": null,
+  "config_used": {
+    "provider": "openai",
+    "model": "gpt-5.4-nano",
+    "model_price_tier": "premium",
+    "max_steps": 12,
+    "loop_guard": false,
+    "temperature": 1.6,
+    "context_size": 8,
+    "verbose_system": true,
+    "retry": {
+      "enabled": false,
+      "max_attempts": 1,
+      "backoff_ms": 0
+    },
+    "cache": {
+      "enabled": false
+    },
+    "normalize_unicode": false,
+    "redact_pii": false,
+    "session_drift_rate": 0.06,
+    "context_reset_every": 0,
+    "tool_error_rate": 0.18,
+    "catalog_override": {
+      "macbook": {
+        "in_stock": false
+      }
+    },
+    "planner": false,
+    "verify": false,
+    "self_consistency": 1,
+    "tool_budget": 0,
+    "prompt_chars": 3438,
+    "custom_prompt": true
+  },
+  "results": [
+    {
+      "qid": "prac-001",
+      "question": "Mua 4 iPhone giao den Ha Noi, tong thanh toan bao nhieu?",
+      "answer": null,
+      "status": "wrapper_error",
+      "session": "prac-001",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:00.107783Z"
+    },
+    {
+      "qid": "prac-002",
+      "question": "Mua 4 MacBook dung ma SALE15, ship Hai Phong, tong thanh toan bao nhieu?",
+      "answer": null,
+      "status": "wrapper_error",
+      "session": "prac-002",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:00.109828Z"
+    },
+    {
+      "qid": "prac-003",
+      "question": "Mua 4 iPhone giao Hai Phong, tong thanh toan bao nhieu?",
+      "answer": null,
+      "status": "wrapper_error",
+      "session": "prac-003",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:00.458658Z"
+    },
+    {
+      "qid": "prac-004",
+      "question": "Mua 5 AirPods voi coupon VIP20 tinh tong tien giup minh.",
+      "answer": null,
+      "status": "wrapper_error",
+      "session": "prac-004",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:00.529604Z"
+    },
+    {
+      "qid": "prac-005",
+      "question": "Mua 2 iPad voi coupon VIP20 giao den hà nội - tong cong bao nhieu VND?",
+      "answer": null,
+      "status": "wrapper_error",
+      "session": "prac-005",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:00.621508Z"
+    },
+    {
+      "qid": "prac-006",
+      "question": "Mua 3 iPad dung ma VIP20 giao hà nội, tong thanh toan bao nhieu?",
+      "answer": null,
+      "status": "wrapper_error",
+      "session": "prac-006",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:00.664558Z"
+    },
+    {
+      "qid": "prac-007",
+      "question": "Mua 1 MacBook, ship Da Lat, tong thanh toan bao nhieu?",
+      "answer": null,
+      "status": "wrapper_error",
+      "session": "prac-007",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:00.831504Z"
+    },
+    {
+      "qid": "prac-008",
+      "question": "Mua 2 MacBook dung ma EXPIRED giao Hai Phong, tong thanh toan bao nhieu?",
+      "answer": null,
+      "status": "wrapper_error",
+      "session": "prac-008",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:00.866777Z"
+    },
+    {
+      "qid": "prac-009",
+      "question": "Mua 2 AirPods voi coupon SALE15 giao Hai Phong - tong cong bao nhieu VND?",
+      "answer": null,
+      "status": "wrapper_error",
+      "session": "prac-009",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:00.893316Z"
+    },
+    {
+      "qid": "prac-010",
+      "question": "Shop con MacBook khong va gia bao nhieu VND? goi minh qua sdt 0901234567",
+      "answer": null,
+      "status": "wrapper_error",
+      "session": "prac-010",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:01.006772Z"
+    },
+    {
+      "qid": "prac-011",
+      "question": "Mua 1 samsung ap dung ma VIP20 giao TP HCM, tong thanh toan bao nhieu?",
+      "answer": null,
+      "status": "wrapper_error",
+      "session": "prac-011",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:01.171915Z"
+    },
+    {
+      "qid": "prac-012",
+      "question": "Mua 2 iPhone voi coupon VIP20, ship Ha Noi, tong thanh toan bao nhieu?",
+      "answer": null,
+      "status": "wrapper_error",
+      "session": "prac-012",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:01.210231Z"
+    },
+    {
+      "qid": "prac-013",
+      "question": "Shop con iPhone khong va gia bao nhieu VND? goi minh qua sdt 0938222111",
+      "answer": null,
+      "status": "wrapper_error",
+      "session": "prac-013",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:01.371369Z"
+    },
+    {
+      "qid": "prac-014",
+      "question": "Mua 3 iPhone ap dung ma EXPIRED, ship TP HCM tinh tong tien giup minh.",
+      "answer": null,
+      "status": "wrapper_error",
+      "session": "prac-014",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:01.459039Z"
+    },
+    {
+      "qid": "prac-015",
+      "question": "Mua 4 iPhone ap dung ma VIP20 giao đà nẵng tinh tong tien giup minh.",
+      "answer": null,
+      "status": "wrapper_error",
+      "session": "prac-015",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:02.093365Z"
+    },
+    {
+      "qid": "prac-016",
+      "question": "Mua 1 nokia voi coupon VIP20, ship Hai Phong, tong thanh toan bao nhieu?",
+      "answer": null,
+      "status": "wrapper_error",
+      "session": "prac-016",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:02.112512Z"
+    },
+    {
+      "qid": "prac-017",
+      "question": "Mua 2 iPhone giao Da Lat tinh tong tien giup minh.",
+      "answer": null,
+      "status": "wrapper_error",
+      "session": "prac-017",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:02.881759Z"
+    },
+    {
+      "qid": "prac-018",
+      "question": "Mua 2 MacBook dung ma EXPIRED giao Ha Noi - tong cong bao nhieu VND?",
+      "answer": null,
+      "status": "wrapper_error",
+      "session": "prac-018",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:02.988005Z"
+    },
+    {
+      "qid": "prac-019",
+      "question": "Mua 4 MacBook voi coupon VIP20 giao Hai Phong, tong thanh toan bao nhieu?",
+      "answer": null,
+      "status": "wrapper_error",
+      "session": "prac-019",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:03.128215Z"
+    },
+    {
+      "qid": "prac-020",
+      "question": "Mua 3 iPad giao den TP HCM tinh tong tien giup minh.",
+      "answer": null,
+      "status": "wrapper_error",
+      "session": "prac-020",
+      "turn": 0,
+      "ts": "2026-06-13T00:00:03.160283Z"
+    }
+  ],
+  "sealed": {
+    "alg": "HMAC-SHA256",
+    "note": "binary-measured metrics for scoring; build your own observability in wrapper.py",
+    "data": "W3siZXJyb3IiOiAiRXJyb3IgY29kZTogNDI5IC0geydlcnJvcic6IHsnbWVzc2FnZSc6ICdZb3UgZXhjZWVkZWQgeW91ciBjdXJyZW50IHF1b3RhLCBwbGVhc2UgY2hlY2sgeW91ciBwbGFuIGFuZCBiaWxsaW5nIGRldGFpbHMuIEZvciBtb3JlIGluZm9ybWF0aW9uIG9uIHRoaXMgZXJyb3IsIHJlYWQgdGhlIGRvY3M6IGh0dHBzOi8vcGxhdGZvcm0ub3BlbmFpLmNvbS9kb2NzL2d1aWRlcy9lcnJvci1jb2Rlcy9hcGktZXJyb3JzLicsICd0eXBlJzogJ2luc3VmZmljaWVudF9xdW90YScsICdwYXJhbSc6IE5vbmUsICdjb2RlJzogJ2luc3VmZmljaWVudF9xdW90YSd9fSIsICJsYXRlbmN5X21zIjogMCwgIm1vZGVsIjogbnVsbCwgInBpaSI6IGZhbHNlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMCwgInRvb2xzX3VzZWQiOiBbXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDAsICJwcm9tcHRfdG9rZW5zIjogMCwgInRvdGFsX3Rva2VucyI6IDB9fSwgeyJlcnJvciI6ICJFcnJvciBjb2RlOiA0MjkgLSB7J2Vycm9yJzogeydtZXNzYWdlJzogJ1lvdSBleGNlZWRlZCB5b3VyIGN1cnJlbnQgcXVvdGEsIHBsZWFzZSBjaGVjayB5b3VyIHBsYW4gYW5kIGJpbGxpbmcgZGV0YWlscy4gRm9yIG1vcmUgaW5mb3JtYXRpb24gb24gdGhpcyBlcnJvciwgcmVhZCB0aGUgZG9jczogaHR0cHM6Ly9wbGF0Zm9ybS5vcGVuYWkuY29tL2RvY3MvZ3VpZGVzL2Vycm9yLWNvZGVzL2FwaS1lcnJvcnMuJywgJ3R5cGUnOiAnaW5zdWZmaWNpZW50X3F1b3RhJywgJ3BhcmFtJzogTm9uZSwgJ2NvZGUnOiAnaW5zdWZmaWNpZW50X3F1b3RhJ319IiwgImxhdGVuY3lfbXMiOiAwLCAibW9kZWwiOiBudWxsLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAwLCAidG9vbHNfdXNlZCI6IFtdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMCwgInByb21wdF90b2tlbnMiOiAwLCAidG90YWxfdG9rZW5zIjogMH19LCB7ImVycm9yIjogIkVycm9yIGNvZGU6IDQyOSAtIHsnZXJyb3InOiB7J21lc3NhZ2UnOiAnWW91IGV4Y2VlZGVkIHlvdXIgY3VycmVudCBxdW90YSwgcGxlYXNlIGNoZWNrIHlvdXIgcGxhbiBhbmQgYmlsbGluZyBkZXRhaWxzLiBGb3IgbW9yZSBpbmZvcm1hdGlvbiBvbiB0aGlzIGVycm9yLCByZWFkIHRoZSBkb2NzOiBodHRwczovL3BsYXRmb3JtLm9wZW5haS5jb20vZG9jcy9ndWlkZXMvZXJyb3ItY29kZXMvYXBpLWVycm9ycy4nLCAndHlwZSc6ICdpbnN1ZmZpY2llbnRfcXVvdGEnLCAncGFyYW0nOiBOb25lLCAnY29kZSc6ICdpbnN1ZmZpY2llbnRfcXVvdGEnfX0iLCAibGF0ZW5jeV9tcyI6IDAsICJtb2RlbCI6IG51bGwsICJwaWkiOiBmYWxzZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDAsICJ0b29sc191c2VkIjogW10sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiAwLCAicHJvbXB0X3Rva2VucyI6IDAsICJ0b3RhbF90b2tlbnMiOiAwfX0sIHsiZXJyb3IiOiAiRXJyb3IgY29kZTogNDI5IC0geydlcnJvcic6IHsnbWVzc2FnZSc6ICdZb3UgZXhjZWVkZWQgeW91ciBjdXJyZW50IHF1b3RhLCBwbGVhc2UgY2hlY2sgeW91ciBwbGFuIGFuZCBiaWxsaW5nIGRldGFpbHMuIEZvciBtb3JlIGluZm9ybWF0aW9uIG9uIHRoaXMgZXJyb3IsIHJlYWQgdGhlIGRvY3M6IGh0dHBzOi8vcGxhdGZvcm0ub3BlbmFpLmNvbS9kb2NzL2d1aWRlcy9lcnJvci1jb2Rlcy9hcGktZXJyb3JzLicsICd0eXBlJzogJ2luc3VmZmljaWVudF9xdW90YScsICdwYXJhbSc6IE5vbmUsICdjb2RlJzogJ2luc3VmZmljaWVudF9xdW90YSd9fSIsICJsYXRlbmN5X21zIjogMCwgIm1vZGVsIjogbnVsbCwgInBpaSI6IGZhbHNlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMCwgInRvb2xzX3VzZWQiOiBbXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDAsICJwcm9tcHRfdG9rZW5zIjogMCwgInRvdGFsX3Rva2VucyI6IDB9fSwgeyJlcnJvciI6ICJFcnJvciBjb2RlOiA0MjkgLSB7J2Vycm9yJzogeydtZXNzYWdlJzogJ1lvdSBleGNlZWRlZCB5b3VyIGN1cnJlbnQgcXVvdGEsIHBsZWFzZSBjaGVjayB5b3VyIHBsYW4gYW5kIGJpbGxpbmcgZGV0YWlscy4gRm9yIG1vcmUgaW5mb3JtYXRpb24gb24gdGhpcyBlcnJvciwgcmVhZCB0aGUgZG9jczogaHR0cHM6Ly9wbGF0Zm9ybS5vcGVuYWkuY29tL2RvY3MvZ3VpZGVzL2Vycm9yLWNvZGVzL2FwaS1lcnJvcnMuJywgJ3R5cGUnOiAnaW5zdWZmaWNpZW50X3F1b3RhJywgJ3BhcmFtJzogTm9uZSwgJ2NvZGUnOiAnaW5zdWZmaWNpZW50X3F1b3RhJ319IiwgImxhdGVuY3lfbXMiOiAwLCAibW9kZWwiOiBudWxsLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAwLCAidG9vbHNfdXNlZCI6IFtdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMCwgInByb21wdF90b2tlbnMiOiAwLCAidG90YWxfdG9rZW5zIjogMH19LCB7ImVycm9yIjogIkVycm9yIGNvZGU6IDQyOSAtIHsnZXJyb3InOiB7J21lc3NhZ2UnOiAnWW91IGV4Y2VlZGVkIHlvdXIgY3VycmVudCBxdW90YSwgcGxlYXNlIGNoZWNrIHlvdXIgcGxhbiBhbmQgYmlsbGluZyBkZXRhaWxzLiBGb3IgbW9yZSBpbmZvcm1hdGlvbiBvbiB0aGlzIGVycm9yLCByZWFkIHRoZSBkb2NzOiBodHRwczovL3BsYXRmb3JtLm9wZW5haS5jb20vZG9jcy9ndWlkZXMvZXJyb3ItY29kZXMvYXBpLWVycm9ycy4nLCAndHlwZSc6ICdpbnN1ZmZpY2llbnRfcXVvdGEnLCAncGFyYW0nOiBOb25lLCAnY29kZSc6ICdpbnN1ZmZpY2llbnRfcXVvdGEnfX0iLCAibGF0ZW5jeV9tcyI6IDAsICJtb2RlbCI6IG51bGwsICJwaWkiOiBmYWxzZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDAsICJ0b29sc191c2VkIjogW10sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiAwLCAicHJvbXB0X3Rva2VucyI6IDAsICJ0b3RhbF90b2tlbnMiOiAwfX0sIHsiZXJyb3IiOiAiRXJyb3IgY29kZTogNDI5IC0geydlcnJvcic6IHsnbWVzc2FnZSc6ICdZb3UgZXhjZWVkZWQgeW91ciBjdXJyZW50IHF1b3RhLCBwbGVhc2UgY2hlY2sgeW91ciBwbGFuIGFuZCBiaWxsaW5nIGRldGFpbHMuIEZvciBtb3JlIGluZm9ybWF0aW9uIG9uIHRoaXMgZXJyb3IsIHJlYWQgdGhlIGRvY3M6IGh0dHBzOi8vcGxhdGZvcm0ub3BlbmFpLmNvbS9kb2NzL2d1aWRlcy9lcnJvci1jb2Rlcy9hcGktZXJyb3JzLicsICd0eXBlJzogJ2luc3VmZmljaWVudF9xdW90YScsICdwYXJhbSc6IE5vbmUsICdjb2RlJzogJ2luc3VmZmljaWVudF9xdW90YSd9fSIsICJsYXRlbmN5X21zIjogMCwgIm1vZGVsIjogbnVsbCwgInBpaSI6IGZhbHNlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMCwgInRvb2xzX3VzZWQiOiBbXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDAsICJwcm9tcHRfdG9rZW5zIjogMCwgInRvdGFsX3Rva2VucyI6IDB9fSwgeyJlcnJvciI6ICJFcnJvciBjb2RlOiA0MjkgLSB7J2Vycm9yJzogeydtZXNzYWdlJzogJ1lvdSBleGNlZWRlZCB5b3VyIGN1cnJlbnQgcXVvdGEsIHBsZWFzZSBjaGVjayB5b3VyIHBsYW4gYW5kIGJpbGxpbmcgZGV0YWlscy4gRm9yIG1vcmUgaW5mb3JtYXRpb24gb24gdGhpcyBlcnJvciwgcmVhZCB0aGUgZG9jczogaHR0cHM6Ly9wbGF0Zm9ybS5vcGVuYWkuY29tL2RvY3MvZ3VpZGVzL2Vycm9yLWNvZGVzL2FwaS1lcnJvcnMuJywgJ3R5cGUnOiAnaW5zdWZmaWNpZW50X3F1b3RhJywgJ3BhcmFtJzogTm9uZSwgJ2NvZGUnOiAnaW5zdWZmaWNpZW50X3F1b3RhJ319IiwgImxhdGVuY3lfbXMiOiAwLCAibW9kZWwiOiBudWxsLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAwLCAidG9vbHNfdXNlZCI6IFtdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMCwgInByb21wdF90b2tlbnMiOiAwLCAidG90YWxfdG9rZW5zIjogMH19LCB7ImVycm9yIjogIkVycm9yIGNvZGU6IDQyOSAtIHsnZXJyb3InOiB7J21lc3NhZ2UnOiAnWW91IGV4Y2VlZGVkIHlvdXIgY3VycmVudCBxdW90YSwgcGxlYXNlIGNoZWNrIHlvdXIgcGxhbiBhbmQgYmlsbGluZyBkZXRhaWxzLiBGb3IgbW9yZSBpbmZvcm1hdGlvbiBvbiB0aGlzIGVycm9yLCByZWFkIHRoZSBkb2NzOiBodHRwczovL3BsYXRmb3JtLm9wZW5haS5jb20vZG9jcy9ndWlkZXMvZXJyb3ItY29kZXMvYXBpLWVycm9ycy4nLCAndHlwZSc6ICdpbnN1ZmZpY2llbnRfcXVvdGEnLCAncGFyYW0nOiBOb25lLCAnY29kZSc6ICdpbnN1ZmZpY2llbnRfcXVvdGEnfX0iLCAibGF0ZW5jeV9tcyI6IDAsICJtb2RlbCI6IG51bGwsICJwaWkiOiBmYWxzZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDAsICJ0b29sc191c2VkIjogW10sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiAwLCAicHJvbXB0X3Rva2VucyI6IDAsICJ0b3RhbF90b2tlbnMiOiAwfX0sIHsiZXJyb3IiOiAiRXJyb3IgY29kZTogNDI5IC0geydlcnJvcic6IHsnbWVzc2FnZSc6ICdZb3UgZXhjZWVkZWQgeW91ciBjdXJyZW50IHF1b3RhLCBwbGVhc2UgY2hlY2sgeW91ciBwbGFuIGFuZCBiaWxsaW5nIGRldGFpbHMuIEZvciBtb3JlIGluZm9ybWF0aW9uIG9uIHRoaXMgZXJyb3IsIHJlYWQgdGhlIGRvY3M6IGh0dHBzOi8vcGxhdGZvcm0ub3BlbmFpLmNvbS9kb2NzL2d1aWRlcy9lcnJvci1jb2Rlcy9hcGktZXJyb3JzLicsICd0eXBlJzogJ2luc3VmZmljaWVudF9xdW90YScsICdwYXJhbSc6IE5vbmUsICdjb2RlJzogJ2luc3VmZmljaWVudF9xdW90YSd9fSIsICJsYXRlbmN5X21zIjogMCwgIm1vZGVsIjogbnVsbCwgInBpaSI6IHRydWUsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAwLCAidG9vbHNfdXNlZCI6IFtdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMCwgInByb21wdF90b2tlbnMiOiAwLCAidG90YWxfdG9rZW5zIjogMH19LCB7ImVycm9yIjogIkVycm9yIGNvZGU6IDQyOSAtIHsnZXJyb3InOiB7J21lc3NhZ2UnOiAnWW91IGV4Y2VlZGVkIHlvdXIgY3VycmVudCBxdW90YSwgcGxlYXNlIGNoZWNrIHlvdXIgcGxhbiBhbmQgYmlsbGluZyBkZXRhaWxzLiBGb3IgbW9yZSBpbmZvcm1hdGlvbiBvbiB0aGlzIGVycm9yLCByZWFkIHRoZSBkb2NzOiBodHRwczovL3BsYXRmb3JtLm9wZW5haS5jb20vZG9jcy9ndWlkZXMvZXJyb3ItY29kZXMvYXBpLWVycm9ycy4nLCAndHlwZSc6ICdpbnN1ZmZpY2llbnRfcXVvdGEnLCAncGFyYW0nOiBOb25lLCAnY29kZSc6ICdpbnN1ZmZpY2llbnRfcXVvdGEnfX0iLCAibGF0ZW5jeV9tcyI6IDAsICJtb2RlbCI6IG51bGwsICJwaWkiOiBmYWxzZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDAsICJ0b29sc191c2VkIjogW10sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiAwLCAicHJvbXB0X3Rva2VucyI6IDAsICJ0b3RhbF90b2tlbnMiOiAwfX0sIHsiZXJyb3IiOiAiRXJyb3IgY29kZTogNDI5IC0geydlcnJvcic6IHsnbWVzc2FnZSc6ICdZb3UgZXhjZWVkZWQgeW91ciBjdXJyZW50IHF1b3RhLCBwbGVhc2UgY2hlY2sgeW91ciBwbGFuIGFuZCBiaWxsaW5nIGRldGFpbHMuIEZvciBtb3JlIGluZm9ybWF0aW9uIG9uIHRoaXMgZXJyb3IsIHJlYWQgdGhlIGRvY3M6IGh0dHBzOi8vcGxhdGZvcm0ub3BlbmFpLmNvbS9kb2NzL2d1aWRlcy9lcnJvci1jb2Rlcy9hcGktZXJyb3JzLicsICd0eXBlJzogJ2luc3VmZmljaWVudF9xdW90YScsICdwYXJhbSc6IE5vbmUsICdjb2RlJzogJ2luc3VmZmljaWVudF9xdW90YSd9fSIsICJsYXRlbmN5X21zIjogMCwgIm1vZGVsIjogbnVsbCwgInBpaSI6IGZhbHNlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMCwgInRvb2xzX3VzZWQiOiBbXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDAsICJwcm9tcHRfdG9rZW5zIjogMCwgInRvdGFsX3Rva2VucyI6IDB9fSwgeyJlcnJvciI6ICJFcnJvciBjb2RlOiA0MjkgLSB7J2Vycm9yJzogeydtZXNzYWdlJzogJ1lvdSBleGNlZWRlZCB5b3VyIGN1cnJlbnQgcXVvdGEsIHBsZWFzZSBjaGVjayB5b3VyIHBsYW4gYW5kIGJpbGxpbmcgZGV0YWlscy4gRm9yIG1vcmUgaW5mb3JtYXRpb24gb24gdGhpcyBlcnJvciwgcmVhZCB0aGUgZG9jczogaHR0cHM6Ly9wbGF0Zm9ybS5vcGVuYWkuY29tL2RvY3MvZ3VpZGVzL2Vycm9yLWNvZGVzL2FwaS1lcnJvcnMuJywgJ3R5cGUnOiAnaW5zdWZmaWNpZW50X3F1b3RhJywgJ3BhcmFtJzogTm9uZSwgJ2NvZGUnOiAnaW5zdWZmaWNpZW50X3F1b3RhJ319IiwgImxhdGVuY3lfbXMiOiAwLCAibW9kZWwiOiBudWxsLCAicGlpIjogdHJ1ZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDAsICJ0b29sc191c2VkIjogW10sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiAwLCAicHJvbXB0X3Rva2VucyI6IDAsICJ0b3RhbF90b2tlbnMiOiAwfX0sIHsiZXJyb3IiOiAiRXJyb3IgY29kZTogNDI5IC0geydlcnJvcic6IHsnbWVzc2FnZSc6ICdZb3UgZXhjZWVkZWQgeW91ciBjdXJyZW50IHF1b3RhLCBwbGVhc2UgY2hlY2sgeW91ciBwbGFuIGFuZCBiaWxsaW5nIGRldGFpbHMuIEZvciBtb3JlIGluZm9ybWF0aW9uIG9uIHRoaXMgZXJyb3IsIHJlYWQgdGhlIGRvY3M6IGh0dHBzOi8vcGxhdGZvcm0ub3BlbmFpLmNvbS9kb2NzL2d1aWRlcy9lcnJvci1jb2Rlcy9hcGktZXJyb3JzLicsICd0eXBlJzogJ2luc3VmZmljaWVudF9xdW90YScsICdwYXJhbSc6IE5vbmUsICdjb2RlJzogJ2luc3VmZmljaWVudF9xdW90YSd9fSIsICJsYXRlbmN5X21zIjogMCwgIm1vZGVsIjogbnVsbCwgInBpaSI6IGZhbHNlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMCwgInRvb2xzX3VzZWQiOiBbXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDAsICJwcm9tcHRfdG9rZW5zIjogMCwgInRvdGFsX3Rva2VucyI6IDB9fSwgeyJlcnJvciI6ICJFcnJvciBjb2RlOiA0MjkgLSB7J2Vycm9yJzogeydtZXNzYWdlJzogJ1lvdSBleGNlZWRlZCB5b3VyIGN1cnJlbnQgcXVvdGEsIHBsZWFzZSBjaGVjayB5b3VyIHBsYW4gYW5kIGJpbGxpbmcgZGV0YWlscy4gRm9yIG1vcmUgaW5mb3JtYXRpb24gb24gdGhpcyBlcnJvciwgcmVhZCB0aGUgZG9jczogaHR0cHM6Ly9wbGF0Zm9ybS5vcGVuYWkuY29tL2RvY3MvZ3VpZGVzL2Vycm9yLWNvZGVzL2FwaS1lcnJvcnMuJywgJ3R5cGUnOiAnaW5zdWZmaWNpZW50X3F1b3RhJywgJ3BhcmFtJzogTm9uZSwgJ2NvZGUnOiAnaW5zdWZmaWNpZW50X3F1b3RhJ319IiwgImxhdGVuY3lfbXMiOiAwLCAibW9kZWwiOiBudWxsLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAwLCAidG9vbHNfdXNlZCI6IFtdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMCwgInByb21wdF90b2tlbnMiOiAwLCAidG90YWxfdG9rZW5zIjogMH19LCB7ImVycm9yIjogIkVycm9yIGNvZGU6IDQyOSAtIHsnZXJyb3InOiB7J21lc3NhZ2UnOiAnWW91IGV4Y2VlZGVkIHlvdXIgY3VycmVudCBxdW90YSwgcGxlYXNlIGNoZWNrIHlvdXIgcGxhbiBhbmQgYmlsbGluZyBkZXRhaWxzLiBGb3IgbW9yZSBpbmZvcm1hdGlvbiBvbiB0aGlzIGVycm9yLCByZWFkIHRoZSBkb2NzOiBodHRwczovL3BsYXRmb3JtLm9wZW5haS5jb20vZG9jcy9ndWlkZXMvZXJyb3ItY29kZXMvYXBpLWVycm9ycy4nLCAndHlwZSc6ICdpbnN1ZmZpY2llbnRfcXVvdGEnLCAncGFyYW0nOiBOb25lLCAnY29kZSc6ICdpbnN1ZmZpY2llbnRfcXVvdGEnfX0iLCAibGF0ZW5jeV9tcyI6IDAsICJtb2RlbCI6IG51bGwsICJwaWkiOiBmYWxzZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDAsICJ0b29sc191c2VkIjogW10sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiAwLCAicHJvbXB0X3Rva2VucyI6IDAsICJ0b3RhbF90b2tlbnMiOiAwfX0sIHsiZXJyb3IiOiAiRXJyb3IgY29kZTogNDI5IC0geydlcnJvcic6IHsnbWVzc2FnZSc6ICdZb3UgZXhjZWVkZWQgeW91ciBjdXJyZW50IHF1b3RhLCBwbGVhc2UgY2hlY2sgeW91ciBwbGFuIGFuZCBiaWxsaW5nIGRldGFpbHMuIEZvciBtb3JlIGluZm9ybWF0aW9uIG9uIHRoaXMgZXJyb3IsIHJlYWQgdGhlIGRvY3M6IGh0dHBzOi8vcGxhdGZvcm0ub3BlbmFpLmNvbS9kb2NzL2d1aWRlcy9lcnJvci1jb2Rlcy9hcGktZXJyb3JzLicsICd0eXBlJzogJ2luc3VmZmljaWVudF9xdW90YScsICdwYXJhbSc6IE5vbmUsICdjb2RlJzogJ2luc3VmZmljaWVudF9xdW90YSd9fSIsICJsYXRlbmN5X21zIjogMCwgIm1vZGVsIjogbnVsbCwgInBpaSI6IGZhbHNlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMCwgInRvb2xzX3VzZWQiOiBbXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDAsICJwcm9tcHRfdG9rZW5zIjogMCwgInRvdGFsX3Rva2VucyI6IDB9fSwgeyJlcnJvciI6ICJFcnJvciBjb2RlOiA0MjkgLSB7J2Vycm9yJzogeydtZXNzYWdlJzogJ1lvdSBleGNlZWRlZCB5b3VyIGN1cnJlbnQgcXVvdGEsIHBsZWFzZSBjaGVjayB5b3VyIHBsYW4gYW5kIGJpbGxpbmcgZGV0YWlscy4gRm9yIG1vcmUgaW5mb3JtYXRpb24gb24gdGhpcyBlcnJvciwgcmVhZCB0aGUgZG9jczogaHR0cHM6Ly9wbGF0Zm9ybS5vcGVuYWkuY29tL2RvY3MvZ3VpZGVzL2Vycm9yLWNvZGVzL2FwaS1lcnJvcnMuJywgJ3R5cGUnOiAnaW5zdWZmaWNpZW50X3F1b3RhJywgJ3BhcmFtJzogTm9uZSwgJ2NvZGUnOiAnaW5zdWZmaWNpZW50X3F1b3RhJ319IiwgImxhdGVuY3lfbXMiOiAwLCAibW9kZWwiOiBudWxsLCAicGlpIjogZmFsc2UsICJwcm92aWRlciI6ICJvcGVuYWkiLCAic3RlcHMiOiAwLCAidG9vbHNfdXNlZCI6IFtdLCAidXNhZ2UiOiB7ImNvbXBsZXRpb25fdG9rZW5zIjogMCwgInByb21wdF90b2tlbnMiOiAwLCAidG90YWxfdG9rZW5zIjogMH19LCB7ImVycm9yIjogIkVycm9yIGNvZGU6IDQyOSAtIHsnZXJyb3InOiB7J21lc3NhZ2UnOiAnWW91IGV4Y2VlZGVkIHlvdXIgY3VycmVudCBxdW90YSwgcGxlYXNlIGNoZWNrIHlvdXIgcGxhbiBhbmQgYmlsbGluZyBkZXRhaWxzLiBGb3IgbW9yZSBpbmZvcm1hdGlvbiBvbiB0aGlzIGVycm9yLCByZWFkIHRoZSBkb2NzOiBodHRwczovL3BsYXRmb3JtLm9wZW5haS5jb20vZG9jcy9ndWlkZXMvZXJyb3ItY29kZXMvYXBpLWVycm9ycy4nLCAndHlwZSc6ICdpbnN1ZmZpY2llbnRfcXVvdGEnLCAncGFyYW0nOiBOb25lLCAnY29kZSc6ICdpbnN1ZmZpY2llbnRfcXVvdGEnfX0iLCAibGF0ZW5jeV9tcyI6IDAsICJtb2RlbCI6IG51bGwsICJwaWkiOiBmYWxzZSwgInByb3ZpZGVyIjogIm9wZW5haSIsICJzdGVwcyI6IDAsICJ0b29sc191c2VkIjogW10sICJ1c2FnZSI6IHsiY29tcGxldGlvbl90b2tlbnMiOiAwLCAicHJvbXB0X3Rva2VucyI6IDAsICJ0b3RhbF90b2tlbnMiOiAwfX0sIHsiZXJyb3IiOiAiRXJyb3IgY29kZTogNDI5IC0geydlcnJvcic6IHsnbWVzc2FnZSc6ICdZb3UgZXhjZWVkZWQgeW91ciBjdXJyZW50IHF1b3RhLCBwbGVhc2UgY2hlY2sgeW91ciBwbGFuIGFuZCBiaWxsaW5nIGRldGFpbHMuIEZvciBtb3JlIGluZm9ybWF0aW9uIG9uIHRoaXMgZXJyb3IsIHJlYWQgdGhlIGRvY3M6IGh0dHBzOi8vcGxhdGZvcm0ub3BlbmFpLmNvbS9kb2NzL2d1aWRlcy9lcnJvci1jb2Rlcy9hcGktZXJyb3JzLicsICd0eXBlJzogJ2luc3VmZmljaWVudF9xdW90YScsICdwYXJhbSc6IE5vbmUsICdjb2RlJzogJ2luc3VmZmljaWVudF9xdW90YSd9fSIsICJsYXRlbmN5X21zIjogMCwgIm1vZGVsIjogbnVsbCwgInBpaSI6IGZhbHNlLCAicHJvdmlkZXIiOiAib3BlbmFpIiwgInN0ZXBzIjogMCwgInRvb2xzX3VzZWQiOiBbXSwgInVzYWdlIjogeyJjb21wbGV0aW9uX3Rva2VucyI6IDAsICJwcm9tcHRfdG9rZW5zIjogMCwgInRvdGFsX3Rva2VucyI6IDB9fV0=",
+    "sig": "6e2e5de048d7d8e0846651bead2af7fcfc84f486009853d34babb2aa1b097c76"
+  }
+}

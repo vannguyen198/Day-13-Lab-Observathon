@@ -11,7 +11,6 @@ from telemetry.backends.console_backend import ConsoleBackend
 from telemetry.backends.file_backend import FileBackend
 from telemetry.backends.sqlite_backend import SqliteBackend
 
-
 def build_backend(name: str | None = None) -> Backend:
     name = (name or os.getenv("OBS_BACKEND", "file")).lower()
     if name == "console":

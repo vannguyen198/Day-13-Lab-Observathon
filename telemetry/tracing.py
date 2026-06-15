@@ -22,10 +22,8 @@ from typing import Optional
 
 _current_span: contextvars.ContextVar = contextvars.ContextVar("current_span", default=None)
 
-
 def _now_ms() -> float:
     return time.time() * 1000.0
-
 
 @dataclass
 class Span:
@@ -54,7 +52,6 @@ class Span:
             "children": [c.to_dict() for c in self.children],
         }
 
-
 class _SpanCtx:
     """Context manager returned by Tracer.start_span()."""
     def __init__(self, tracer: "Tracer", span: Span, token):
@@ -80,7 +77,6 @@ class _SpanCtx:
         if self.span.parent_id is None:      # root closed -> export whole trace
             self.tracer.export(self.span)
         return False                          # never swallow exceptions
-
 
 class Tracer:
     def __init__(self, backend=None, service_name: str = "ecommerce-agent"):
@@ -110,7 +106,6 @@ class Tracer:
             self.backend.export_trace(root.to_dict())
         except Exception as exc:       # observability must never crash the app
             print(f"[tracing] backend export failed (non-fatal): {exc}")
-
 
 def format_tree(trace: dict, indent: int = 0) -> str:
     """Pretty-print a trace dict as an indented span tree (used by console backend)."""

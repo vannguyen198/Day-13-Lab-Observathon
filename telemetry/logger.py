@@ -20,18 +20,14 @@ from typing import Any, Optional
 
 _correlation_id: contextvars.ContextVar = contextvars.ContextVar("correlation_id", default=None)
 
-
 def new_correlation_id() -> str:
     return "req-" + uuid.uuid4().hex[:8]
-
 
 def set_correlation_id(cid: str) -> None:
     _correlation_id.set(cid)
 
-
 def get_correlation_id() -> Optional[str]:
     return _correlation_id.get()
-
 
 class IndustryLogger:
     def __init__(self, name: str = "AI-Lab-Agent", log_dir: str = "logs"):
@@ -65,7 +61,6 @@ class IndustryLogger:
             "data": data,
         }
         self.logger.info(json.dumps(payload, ensure_ascii=False))
-
 
 # Global logger instance
 logger = IndustryLogger()
